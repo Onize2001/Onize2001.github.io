@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="cart-remove" onclick="removeFromCart($[id])"><i class="fas fa-trash"></i></div>
+
+        <img src="images/watermelon.png" alt="">
+        <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">&#8358;1000</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+    <div class="cart-single">
+        <div class="cart-remove" onclick="removeFromCart($[id])">&#10007;</div>
+        <img src="./products/${image}" alt="${name}" class="cart-image">
+        <div class="cart-info">
+            <h4 class="cart-name">${name}</h4>
+            <p class="cart-price">&#8358;${price.toLocaleString()}</p>
+        </div>
+        <div class="cart-qtywrap">
+            <input type="number" onchange="changeInCart($[id], this)" value="${qty}" class="cart-qty">
+        </div>
+</body>
+
+</html>

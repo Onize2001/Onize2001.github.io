@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FruVeg</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/sweetalert.min.js"></script>
+  <script src="./js/product.js" defer></script> 
+
+</head>
+
+<body>
+
+  <!-- header section starts-->
+
+  <section class="header-section">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>FruVeg</a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#features">features</a>
+      <a href="#products">products</a>
+      <a href="#categories">categories</a>
+      <a href="#reviews">reviews</a>
+      <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <!-- <div class="fas fa-search" id="search-btn"></div> -->
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="What are you looking for?" onkeyup="search()">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+
+
+    <div class="shopping-cart">
+      <span class="cart-label">0</span>
+      <i class="fa fa-shopping-cart"></i>
+      <div class="cart-wrap">
+
+      </div>
+
+
+      <div class="total">Total : &#8358;3000/- </div>
+      <a href="#" class="btn">Checkout</a>
+    </div>
+
+  </section>
+  <!-- header section ends -->
+
+
+  <!-- home section starts-- -->
+
+  <section class="home-section" id="home">
+
+    <div class="content">
+      <h2>fresh and <span>healthy</span> products for you</h2>
+      <p>At FruVeg, we're passionate about bringing you the finest selection of fresh, high-quality fruits and vegetables from around the world, delivered right to your doorstep. We understand that nothing compares to the flavor, nutrition, and satisfaction of enjoying nature's bounty at its peak.</p>
+      <a href="#products" class="btn">shop now</a>
+    </div>
+  </section>
+  <!-- home section ends -->
+
+
+  <!-- features section starts -->
+
+  <section class="features-section" id="features">
+    <h1 class="heading">our <span>features</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="./images/Fruveg-Background3.jpg" alt="">
+        <h3>fresh and healthy</h3>
+        <p>Each item is carefully selected to provide you with the best in taste and nutritional value, encouraging you to embrace a lifestyle of wellness and vitality...</p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </div>
+
+      <div class="box">
+        <img src="./images/Delivery-background.jpg" alt="">
+        <h3>free delivery</h3>
+        <p>Shop for your favorite fresh fruits and vegetables from the comfort of your home, and we'll ensure your order is promptly and reliably delivered to your doorstep at no additional cost...</p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </div>
+
+      <div class="box">
+        <img src="./images/easypaymentbg1.jpg" alt="">
+        <h3>easy payment</h3>
+        <p>Say goodbye to complicated checkouts. Our user-friendly payment process ensures that finalizing your order is smooth and secure... </p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- features section ends -->
+
+
+  <!-- products section starts -->
+
+
+  <section class="products-section" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="products-wrap">
+      
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- products section ends -->
+
+
+  <!-- categories section starts -->
+
+  <section class="categories-section" id="categories">
+    <h1 class="heading">product <span>categories</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/Category1.jpg" alt="">
+        <h3>vegetables</h3>
+        <p>upto 50% off</p>
+        <a href="#products" class="btn">shop now</a>
+      </div>
+
+
+      <div class="box">
+        <img src="images/Category 2 fruits.jpg" alt="">
+        <h3>fresh fruits</h3>
+        <p>upto 50% off</p>
+        <a href="#products" class="btn">shop now</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- categories section ends -->
+
+  <!-- review section starts -->
+
+  <section class="review-section" id="reviews">
+    <h1 class="heading">customer's <span>review</span></h1>
+
+    <div class="swiper review-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+          <img src="./images/Lady 1.jpg" alt="">
+          <p>Love FRUVEG! Fresh, flavorful produce and easy online ordering. A health nut's dream come true. Will be a repeat customer for sure!</p>
+          <h3>lady dianna</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+
+
+        <div class="swiper-slide box">
+          <img src="./images/Person 1.jpg" alt="">
+          <p>FRUVEG is my culinary secret weapon! Fantastic variety, top-quality produce. Hoping for an even wider range. Still, highly recommended for food lovers!</p>
+          <h3>john doe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+          <img src="./images/Lady 2.jpg" alt="">
+          <p>FRUVEG saves the day! Quick, user-friendly, and always fresh. A lifesaver for busy professionals. Highly recommend for easy, healthy living!</p>
+          <h3>joanne dave</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+          <img src="./images/Lady 3.jpg" alt="">
+          <p>Impressed with my first FRUVEG order! Freshness delivered to my doorstep. Super easy online experience. Definitely won me over as a regular customer. Thanks!</p>
+          <h3>onize joe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+          <img src="./images/Person 5.jpg" alt="">
+          <p>Fueling my workouts with FRUVEG goodness! Quality produce, quick service. Would love to see more organic options. Overall, a solid choice for fitness enthusiasts!</p>
+          <h3>dave cruz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide box">
+          <img src="./images/Person 3.jpg" alt="">
+          <p>FRUVEG is a family favorite! The fruits and veggies are consistently fresh, and the kids love the variety. Easy online shopping and reliable delivery make life simpler. A must for busy parents!</p>
+          <h3>jones adam</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- review section ends -->
+
+
+
+  <!--footer section starts -->
+
+  <section class="footer-section" id="contact">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3> fruVeg <i class="fas fa-shopping-basket"></i> </h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-tiktok"></a>
+        </div>
+      </div>
+
+
+      <div class="box">
+        <h3> contact info</h3>
+        <a href="#" class="links"> <i class="fa fa-balance-scale"></i> Privacy Policy</a></li>
+        <a href="tel:+2348133540409" class="links"><i class="fa fa-phone"></i> Dial Us Up</a>
+        <a href="mailto:euniceonizeahmed@gmail.com" class="links"><i class="fa fa-envelope"></i> Send a Mail</a>>
+        <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>abuja, nigeria-665748 </a>
+      </div>
+
+
+      <div class="box">
+        <h3> quick links</h3>
+        <a href="#home" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+        <a href="#features" class="links"> <i class="fas fa-arrow-right"></i>features</a>
+        <a href="#products" class="links"> <i class="fas fa-arrow-right"></i>products</a>
+        <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i>categories</a>
+        <a href="#reviews" class="links"> <i class="fas fa-arrow-right"></i>reviews</a>
+      </div>
+
+      <div class="box">
+        <h3> newsletter</h3>
+        <p>subscribe for latest updates</p>
+        <input type="email" placeholder="your email" class="email">
+        <input type="submit" value="subscribe" class="sub">
+        <img src="./images/payment-card.png" class="payment-img" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- footer section ends -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
